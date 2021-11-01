@@ -1,6 +1,6 @@
-import React from 'react'
-import CardItem from './CardItem'
-import './Cards.css'
+import React from "react";
+import "./Cards.css";
+import CardItem from "./CardItem";
 
 function Cards() {
     return (
@@ -10,35 +10,36 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
-                            src="images/20.jpg"
-                            text="Explore"
-                            label="Modelo"
+                            src="images/logaster.png"
+                            text="Explore the hidden waterfall deep inside the Amazon Jungle"
+                            label="Adventure"
                             path="/services"
                         />
-
                         <CardItem
                             src="images/81.jpg"
-                            text="Explore loremcscsd v vdv dv  vdvdvsvdv  dvsdvsdv dvsdvsdv vd vsdv cdscscscdc"
-                            label="Modelo"
+                            text="Travel through the Islands of Bali in a Private Cruise"
+                            label="Luxury"
                             path="/services"
                         />
+                    </ul>
+                    <ul className="cards__items">
                         <CardItem
                             src="images/76.jpg"
-                            text="Explore"
-                            label="Modelo"
+                            text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+                            label="Mystery"
                             path="/services"
                         />
                         <CardItem
-                            src="images/logaster.png"
-                            text="Explore"
-                            label="Modelo"
-                            path="/services"
+                            src="images/20.jpg"
+                            text="Experience Football on Top of the Himilayan Mountains"
+                            label="Adventure"
+                            path="/about"
                         />
                         <CardItem
                             src="images/19.jpg"
-                            text="Explore"
-                            label="Modelo"
-                            path="/services"
+                            text="Ride through the Sahara Desert on a guided camel tour"
+                            label="Adrenaline"
+                            path="/sign-up"
                         />
                     </ul>
                 </div>
@@ -47,4 +48,4 @@ function Cards() {
     );
 }
 
-export default Cards
+export default Cards;

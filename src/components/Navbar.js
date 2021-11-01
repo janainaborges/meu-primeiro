@@ -38,7 +38,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-conatiner">
-                    <Link to="/" className="navbar-logo" onClick="closeMobileMenu">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         DevJan <i class="fab fa-react"></i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -65,11 +65,11 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link
-                                to="/products"
+                                to="/about"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >
-                                Produtos
+                                Sobre
                             </Link>
                         </li>
                         <li>
