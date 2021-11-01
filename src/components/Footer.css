@@ -1,0 +1,6 @@
+.footer-conatiner {
+    background-color:black ;
+    padding: 4rem 0 2rem 0;
+    display:flex;
+    flex-direction: column;
+}
