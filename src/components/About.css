@@ -23,7 +23,8 @@ h1{
 
 }
 .text {
-    margin: 30px 500px 60px 500px;
+    margin: 30px 500px 60px 500px
+    ;
     outline:auto;
     font-size: 18px;
     padding: 24px;
