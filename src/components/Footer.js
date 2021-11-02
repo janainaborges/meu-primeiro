@@ -8,27 +8,40 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subription-heading">Bem vindo</p>
-                <p className="footer-subscription-text">sem</p>
+                <p className="footer-subscription-text">Para uma avaliação, preencha com os dados.</p>
                 <div className="input-areas">
                     <form>
                         <input
                             type="email"
                             name="email"
-                            placeholder="Your Email"
+                            placeholder="Seu e-mail"
                             className="footer-input"
                         />
-                        <Button buttonStyle="btn--outline">Subscribe</Button>
+                        <input
+                            type="Numero"
+                            name="email"
+                            placeholder="Seu número"
+                            className="footer-input"
+                        />
+                        <label>
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Sua mensagem"
+                                className="footer-input"
+                            />
+                        </label>
+
+                        <Button buttonStyle="btn--outline">Enviar</Button>
                     </form>
                 </div>
             </section>
-
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Sobre Nós</h2>
                         <Link to="/sign-up">Sobre o trabalho</Link>
-                        <Link to="/"> testemunhos </Link>
-                        <Link to="/"> Carreiras </Link>
+                        <Link to="/"> Carreira </Link>
                         <Link to="/"> Termos do serviço </Link>
                     </div>
                     <div class="footer-link-items">
@@ -75,7 +88,7 @@ function Footer() {
                         </Link>
                         <Link
                             class="social-icon-link twitter"
-                            to="/"
+                            href="https://www.linkedin.com/in/janaina-borges-b2a2b4206/"
                             target="_blank"
                             aria-label="LinkedIn"
                         >

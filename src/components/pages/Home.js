@@ -4,6 +4,7 @@ import HeroSection from "../HeroSection.js";
 import Cards from "../Cards";
 import Footer from "../Footer";
 import About from "../About";
+import Tech from "../Tech";
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <HeroSection />
             <Cards />
             <About />
+            <Tech />
             <Footer />
         </>
     );

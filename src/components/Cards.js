@@ -12,13 +12,13 @@ function Cards() {
                         <CardItem
                             src="images/logaster.png"
                             text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                            label="Adventure"
+                            label="Tecnologia"
                             path="/services"
                         />
                         <CardItem
                             src="images/81.jpg"
                             text="Travel through the Islands of Bali in a Private Cruise"
-                            label="Luxury"
+                            label="Fullstack"
                             path="/services"
                         />
                     </ul>
@@ -26,20 +26,20 @@ function Cards() {
                         <CardItem
                             src="images/76.jpg"
                             text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-                            label="Mystery"
+                            label="Backend"
                             path="/services"
                         />
                         <CardItem
                             src="images/20.jpg"
                             text="Experience Football on Top of the Himilayan Mountains"
-                            label="Adventure"
-                            path="/about"
+                            label="Frontend"
+                            path="/services"
                         />
                         <CardItem
                             src="images/19.jpg"
                             text="Ride through the Sahara Desert on a guided camel tour"
-                            label="Adrenaline"
-                            path="/sign-up"
+                            label="Tecnologia"
+                            path="/services"
                         />
                     </ul>
                 </div>
