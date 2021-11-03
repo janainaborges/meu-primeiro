@@ -11,13 +11,13 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="images/logaster.png"
-                            text="Explore "
+                            text="Explore a infinidade da tecnologia "
                             label="Tecnologia"
                             path="/services"
                         />
                         <CardItem
                             src="images/81.jpg"
-                            text="Explore"
+                            text="Explore a infinidade da tecnologia"
                             label="Fullstack"
                             path="/services"
                         />
@@ -25,13 +25,13 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="images/76.jpg"
-                            text="Explore"
+                            text="Explore a infinidade da tecnologia"
                             label="Backend"
                             path="/services"
                         />
                         <CardItem
                             src="images/20.jpg"
-                            text="Explore"
+                            text="Explore a infinidade da tecnologia"
                             label="Frontend"
                             path="/services"
                         />
