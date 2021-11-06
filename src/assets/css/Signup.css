@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open-Sans", sans serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(206, 210, 214);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.form-content {
+    position: relative;
+    top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    justify-content: center;
+    height: 80vh;
+    padding: 16rem;
+    margin: 9rem;
+}
+
+.form-subription-heading {
+    font-size: 1.3rem;
+    justify-content: baseline;
+    padding: 1rem;
+    margin: 2rem;
+}
+.footer-subscription-text {
+    font-size: 2rem;
+}
+
+.form-subription-heading,
+.footer-subscription-text,
+.input-form {
+    color: rgb(5, 3, 26);
+    padding: 0.1rem;
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.footer-input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 2rem;
+}
+
+/*Colocar um embaixo do outro*/
+.footer-input,
+.form-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-input:focus {
+    outline: 1px solid blue;
+}
