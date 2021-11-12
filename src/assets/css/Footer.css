@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: auto;
 }
 
 .footer-subscription {
@@ -64,6 +65,9 @@
 
 .footer-link-wrapper {
     display: flex;
+    padding: 0.4rem;
+    margin: 0;
+    flex-wrap: wrap;
 }
 
 .footer-link-items {
@@ -72,10 +76,12 @@
     align-items: center;
     margin: 2rem;
     text-align: center;
-    width: 14rem;
+    width: auto;
     box-sizing: border-box;
     font-size: 1.3rem;
     font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+
 }
 
 .footer-link-items h2 {
@@ -148,10 +154,6 @@
     margin-bottom: 16px;
 }
 
-.website-rights {
-    color: #fff;
-    margin-bottom: 16px;
-}
 
 @media screen and (max-width: 820px) {
     .footer-links {
@@ -176,4 +178,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer-container > h1 {
+    font-size: 1.5rem;
+    margin-top: -100px;
+  }
+
+  .footer-link-items > a {
+    font-size: 1rem;
+  }
 }

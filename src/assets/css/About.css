@@ -1,34 +1,45 @@
-
-.abouteme {
-    background-color: rgb(20, 49, 49);
+.about-h1 {
+    background-color: rgb(3, 3, 20);
+    max-width: auto;
+    margin: auto;
+    padding: 2rem;
+}
+.about {
     display: flex;
-    flex-direction: column;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    height: 45rem;
-    margin-bottom: -4rem;
+    justify-content: space-evenly;
 }
 .photo {
-    width: 300px;
-    height: 300px;
+    width: 20rem;
+    height: 20rem;
     display: flex;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
 }
-h1 {
-    font-size: 2rem;
+
+.abouteme {
+    flex-direction: column;
+    max-width: 40rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    max-width: 40rem;
+    padding: 1rem;
+    display: flex;
+    margin: 7rem;
+    flex-wrap: wrap;
+}
+.text-p {
+    color: aliceblue;
+    font-size: 1rem;
     font-family: "Montserrat", sans-serif;
 }
-.text {
-    margin: 1rem 8rem 3rem 8rem;
-    outline: auto;
-    font-size:1.5rem;
-    padding: 1.2rem;
-    color: rgb(221, 223, 226);
 
+h1 {
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
 }
-

@@ -37,16 +37,15 @@ function Footer() {
                             DevJan <i class="fab fa-react"></i>
                         </Link>
                     </div>
-                    <small class="website-rights">DevJan © 2021</small>
+
                     <div class="social-icons">
-                        <Link
-                            class="social-icon-link instagram"
-                            to="/"
-                            target="_blank"
-                            aria-label="Instagram"
+                        <a
+                            class="social-icon-link whatsapp"
+                            href="https://api.whatsapp.com/send?phone=5561982555167"
+                            aria-label="whatsapp"
                         >
-                            <i class="fab fa-instagram" />
-                        </Link>
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
                         <a
                             href="https://github.com/janainaborges"
                             class="social-icon-link github"
