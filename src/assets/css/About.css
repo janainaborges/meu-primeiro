@@ -7,6 +7,7 @@
 .about {
     display: flex;
     justify-content: space-evenly;
+    padding: 3rem;
 }
 .photo {
     width: 20rem;
@@ -27,19 +28,47 @@
 .text {
     text-align: center;
     max-width: 40rem;
-    padding: 1rem;
+    padding: rem;
     display: flex;
-    margin: 7rem;
+    margin: 10rem;
     flex-wrap: wrap;
 }
 .text-p {
     color: aliceblue;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
+    display: flex;
 }
 
 h1 {
     font-size: 4rem;
     font-family: "Montserrat", sans-serif;
     color: white;
+}
+@media screen and (max-width: 768px) {
+    .about {
+        margin: auto;
+        padding: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+    .photo {
+        width: 8rem;
+        height: 8rem;
+    }
+    .text {
+        text-align: center;
+        max-width: 10rem;
+        display: flex;
+        padding: 0.5rem;
+        margin: 1rem;
+        flex-wrap: wrap;
+    }
+    .text-p {
+        font-size: 0.6rem;
+    }
+    h1 {
+        font-size: 1rem;
+    }
 }
