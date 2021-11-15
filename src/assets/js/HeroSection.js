@@ -8,8 +8,8 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <video src="/videos/video.mp4" autoPlay loop muted />
-            <h1>CRIAÇÃO DE PROJETOS</h1>
-            <p>O que você procura?</p>
+            <h1>INSPIRATION SOFTWARE</h1>
+            <p>De gente que cria, é faz acontecer</p>
             <div className="hero-btns">
                 <Link to="/sign-up">
                     <Button
@@ -17,7 +17,7 @@ function HeroSection() {
                         buttonStyle="btn--outline"
                         buttonSize="btn--large"
                     >
-                        Começar
+                        Projetos
                     </Button>
                 </Link>
                 <a href="https://github.com/janainaborges">
@@ -27,7 +27,7 @@ function HeroSection() {
                         buttonSize="btn--large"
                         onClick={console.log("hey")}
                     >
-                        Repositório <i class="fab fa-github-alt"></i>
+                        Github <i class="fab fa-github-alt"></i>
                     </Button>
                 </a>
             </div>
