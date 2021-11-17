@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
-import "../../App.css";
 import React from "react";
-import "../../assets/css/About.css";
+import "./About.css";
 
 export default function About() {
     return (

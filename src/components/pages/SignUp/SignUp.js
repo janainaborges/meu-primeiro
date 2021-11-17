@@ -1,7 +1,6 @@
-import "../../App.css";
-import { Button } from "../../assets/js/Button";
+import { Button } from "../Button/Button";
 import React from "react";
-import "../../assets/css/Signup.css";
+import "./SignUp.css";
 
 export default function SignUp() {
     return (

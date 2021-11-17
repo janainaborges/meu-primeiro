@@ -1,15 +1,12 @@
 import React from "react";
 
 import "./App.css";
-import Navbar from "../src/assets/js/Navbar";
+import Navbar from "../src/components/pages/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from './components/pages/Home';
+import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
-import SignUp from "./components/pages/SignUp";
-import About from "./components/pages/About";
-
-
-
+import SignUp from "./components/pages/SignUp/SignUp";
+import About from "./components/pages/About/About";
 
 function App() {
     return (

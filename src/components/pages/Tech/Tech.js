@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Tech.css'
+import './Tech.css'
 
 function Tech() {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/Final.css";
+import "./Final.css";
 
 function Final() {
     return (

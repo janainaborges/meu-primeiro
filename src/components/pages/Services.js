@@ -1,7 +1,7 @@
 import "../../App.css";
 import React from "react";
-import "../../assets/css/Cards.css";
-import CardItem from "../../assets/js/CardItem";
+import "./Cards/Cards.css";
+import CardItem from "./Cards/CardItem";
 
 export default function Service() {
     return (
