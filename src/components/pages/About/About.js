@@ -1,12 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./About.css";
+import { Button } from "../Button/Button";
 
 export default function About() {
     return (
         <div className="about-h1">
-            <h1>Sobre mim</h1>
-
             <div className="about">
                 <div className="abouteme">
                     <div className="photo">
@@ -15,6 +14,8 @@ export default function About() {
                 </div>
 
                 <div className="text">
+                    <h3>Sobre mim</h3>
+
                     <p className="text-p">
                         Olá, sou Janaina Borges, tenho 25 anos e moro em São
                         Sebastião, Distrito Federal. Sou entusiasta em
@@ -23,6 +24,12 @@ export default function About() {
                         aperfeiçoamento, me proporciona imensa satisfação ver
                         ideias saindo do papel e tornando-se realidade!
                     </p>
+                    <div className="bt">
+                        <Button className="btns" buttonStyle="btn--test">
+                            {" "}
+                            Currículo{" "}
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>
