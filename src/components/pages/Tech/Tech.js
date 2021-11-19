@@ -12,7 +12,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-html5"></i>
-                            <h3>HTML5</h3>
+                            <h4>HTML5</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>
@@ -21,7 +21,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-css3-alt"></i>
-                            <h3>CSS</h3>
+                            <h4>CSS</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>
@@ -36,7 +36,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-figma"></i>
-                            <h3>Design</h3>
+                            <h4>Design</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>
@@ -45,7 +45,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-docker"></i>
-                            <h3>Docker</h3>
+                            <h4>Docker</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>
@@ -60,7 +60,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-js"></i>
-                            <h3>Javascript</h3>
+                            <h4>Javascript</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>
@@ -69,7 +69,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-java"></i>
-                            <h3>Java</h3>
+                            <h4>Java</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>
@@ -78,7 +78,7 @@ function Tech() {
                     <div className="conhecimento">
                         <div className="conhecimento-header">
                             <i className="fab fa-node"></i>
-                            <h3>Node.js</h3>
+                            <h4>Node.js</h4>
                         </div>
                         <div className="conhecimento-text">
                             <p></p>

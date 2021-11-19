@@ -1,10 +1,25 @@
 /* eslint-disable no-undef */
+/* eslint-disable import/no-anonymous-default-export */
 
+import React from 'react'
+import { Button } from '../Button/Button';
 
-function pdf(x) {
-   
-            myTempWindow = window.open(x,'','left=10000,screenX=10000');
-            myTempWindow.document.execCommand('SaveAs','null','cv1.pdf');
-            myTempWindow.close();
-        
-}
+export default class extends pdf {
+  constructor() {
+    super()
+    this.state = {
+      isLoading: true
+    }
+  }
+  render() {
+    return (
+        <a href="./cv1.pdf" download>
+            {" "}
+            <Button className="btns" buttonStyle="btn--test">
+                {" "}
+                Currículo{" "}
+            </Button>
+        </a>
+    );}}
+
+pdf();

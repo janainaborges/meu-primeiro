@@ -3,6 +3,7 @@ import React from "react";
 import "./About.css";
 import { Button } from "../Button/Button";
 
+
 export default function About() {
     return (
         <div className="about-h1">
@@ -15,7 +16,6 @@ export default function About() {
 
                 <div className="text">
                     <h3>Sobre mim</h3>
-
                     <p className="text-p">
                         Olá, sou Janaina Borges, tenho 25 anos e moro em São
                         Sebastião, Distrito Federal. Sou entusiasta em
@@ -25,10 +25,13 @@ export default function About() {
                         ideias saindo do papel e tornando-se realidade!
                     </p>
                     <div className="bt">
-                        <Button className="btns" buttonStyle="btn--test">
+                        <a href="./cv1.pdf" download>
                             {" "}
-                            Currículo{" "}
-                        </Button>
+                            <Button className="btns" buttonStyle="btn--test">
+                                {" "}
+                                Currículo{" "}
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>

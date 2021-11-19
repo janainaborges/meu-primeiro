@@ -12,6 +12,7 @@
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
     row-gap: 0.5rem;
+    
 }
 
 .conhecimento:nth-child(1) {
@@ -111,4 +112,8 @@
 .conhecimentos-img-wrapper img {
     object-fit: cover;
     height: 100%;
+}
+h4 {
+    font-size: 2.6rem;
+    color:#353839;
 }
