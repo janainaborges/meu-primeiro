@@ -84,8 +84,7 @@ function Navbar() {
                 {button && (
                     <Link to="contact">
                         <Button buttonStyle="btn--outline">
-                            {" "}
-                            Agende uma demonstração
+                                Agende uma demonstração
                         </Button>
                     </Link>
                 )}

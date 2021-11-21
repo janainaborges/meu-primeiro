@@ -27,7 +27,7 @@
 .btn--test {
     background-color: transparent;
     color: #fff;
-    padding: 2px 8px;
+    padding: 2px 5px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
 

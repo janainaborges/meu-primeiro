@@ -4,7 +4,6 @@ import { Button } from "../Button/Button";
 import "./Contact.css";
 import emailjs from "emailjs-com";
 
-
 const Result = () => {
     return <p>Foi entregue com sucesso!!</p>;
 };
@@ -76,14 +75,19 @@ export default function SignUp(props) {
                                         className="footer-msg"
                                     />
                                 </label>
+                                <div className="hero-btn">
+                                    <div>
+                                        <Button
+                                            className="btn"
+                                            buttonStyle="btn--test"
+                                            buttonSize="btn--small"
+                                        >
+                                            Enviar
+                                        </Button>
+                                    </div>
+                                </div>
                             </div>
-                            <Button
-                                className="form-button"
-                                buttonStyle="btn--test"
-                                buttonSize="btn--small"
-                            >
-                                Enviar
-                            </Button>
+
                             <div className="row">
                                 {result ? <Result /> : null}
                             </div>
@@ -103,8 +107,6 @@ export default function SignUp(props) {
                     </div>
                 </div>
             </section>
-            
         </div>
     );
-      
 }

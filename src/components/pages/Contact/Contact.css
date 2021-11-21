@@ -71,12 +71,13 @@ p {
 }
 
 .footer-input {
+    display: flex;
     font-size: 20px;
-    height: 2.4rem;
+    height: 2rem;
     border-radius: 3px;
 }
 .footer-msg {
-    font-size: 23px;
+    font-size: 20px;
     height: 10rem;
     border-radius: 4px;
     border: none;
@@ -98,100 +99,27 @@ p {
 .footer-msg:focus {
     outline: 2px solid rgb(12, 12, 59);
 }
-.form-button {
-    font-size: 3px;
-}
-
-@media (min-width: 1600px) {
-    .form-subscription {
-        width: 70rem;
-        height: 50rem;
-        margin-left: 4rem;
-    }
-    .input {
-        width: 40rem;
-        height: 55rem;
-    }
-
-    .footer-input {
-        font-size: 2rem;
-        height: 6rem;
-        border-radius: 3px;
-    }
-    .footer-msg {
-        font-size: 3rem;
-        width: 37rem;
-        height: 10rem;
-        border: none;
-    }
-    .footer-input,
-    .form-button,
-    .footer-msg {
-        display: block;
-        margin-bottom: 1.5rem;
-    }
-    .form-button {
-        font-size: 30rem;
-    }
-
-    p,
-    .form-subscription-title {
-        font-size: 2.5rem;
-    }
-}
-
-@media (min-width: 1600px) {
-    .form-subscription {
-        width: 70rem;
-        height: 50rem;
-        margin-left: 4rem;
-    }
-    .input {
-        width: 40rem;
-        height: 55rem;
-    }
-
-    .footer-input {
-        font-size: 2rem;
-        height: 6rem;
-        border-radius: 3px;
-    }
-    .footer-msg {
-        font-size: 3rem;
-        width: 37rem;
-        height: 10rem;
-        border: none;
-    }
-    .footer-input,
-    .form-button,
-    .footer-msg {
-        display: block;
-        margin-bottom: 1.5rem;
-    }
-    .form-button {
-        font-size: 30rem;
-    }
-
-    p,
-    .form-subscription-title {
-        font-size: 2.5rem;
-    }
-}
-@media screen and (max-width: 768px) {
-   .input-form {
+.hero-btn {
+    margin-top: 2rem;
+    margin-left: 15rem;
     display: flex;
-    flex-direction: column-reverse;
-    flex-flow: wrap;
 }
+
+@media screen and (max-width: 768px) {
+    .form-container {
+        background: rgb(22, 22, 37);
+        display: flex;
+    }
     .form-subscription {
         background-image: none;
-        width: none;
-        height: none;
+        width: 0;
+        height: 0;
     }
     .input {
         display: flex;
-        width:40rem;
-        height: 80rem;
+        width: 40%;
+        padding: 3rem;
+        margin: 3rem;
     }
 
     .footer-input {
@@ -200,9 +128,9 @@ p {
         border-radius: 0px;
     }
     .footer-msg {
-        font-size: 2px;
-        width: 3rem;
-        height: 1rem;
+        font-size: 2rem;
+        width: 40rem;
+        height: 10rem;
         border: none;
     }
     .footer-input,
@@ -211,7 +139,7 @@ p {
         display: block;
         margin-bottom: 1.5rem;
     }
-    .form-button {
+    .btn-form {
         font-size: 30rem;
     }
 
