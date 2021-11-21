@@ -23,18 +23,20 @@ video {
     font-size: 4.5rem;
     margin-top: -100px;
     padding: 2rem;
+    font-family: 'M PLUS 1', sans-serif;
+
 }
 
 .hero-container > p {
     margin-top: 8px;
     color: rgb(255, 255, 255);
     font-size: 32px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
+    font-family: 'M PLUS 1', sans-serif;
 }
 
 .hero-btns {
     margin-top: 32px;
+
 }
 
 .hero-btns .btn {

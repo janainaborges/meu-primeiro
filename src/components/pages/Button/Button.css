@@ -27,29 +27,38 @@
 .btn--test {
     background-color: transparent;
     color: #fff;
-    padding: 2px 10px;
+    padding: 2px 8px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
 
     
 }
+
+
+
+.btn--smallp {
+    padding: 8px 16px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .btn--small {
     padding: 7px 18px;
     font-size: 12px;
-    font-family:"Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn--medium {
     padding: 8px 20px;
     font-size: 18px;
-    font-family:"Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .btn--large {
     padding: 12px 26px;
     font-size: 20px;
-    font-family:"Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 

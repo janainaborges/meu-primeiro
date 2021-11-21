@@ -8,8 +8,7 @@ function Footer() {
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Sobre Nós</h2>
-                        <Link to="/sign-up">Sobre o trabalho</Link>
+                        <h2>Sobre o trabalho</h2>
                         <Link to="/"> Carreira </Link>
                         <Link to="/"> Termos do serviço </Link>
                     </div>
@@ -20,14 +19,14 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
-                    <div class="footer-link-items">
+                    {/* <div class="footer-link-items">
                         <h2>Midias Sociais</h2>
                         <a href="/">Instagram</a>
                         <a href="https://www.linkedin.com/in/janaina-borges-b2a2b4206/">
                             LinkedIn
                         </a>
                         <a href="https://github.com/janainaborges">GitHub</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <section class="social-media">

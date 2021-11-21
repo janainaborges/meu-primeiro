@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useRef } from "react";
 import { Button } from "../Button/Button";
-import "./SignUp.css";
+import "./Contact.css";
 import emailjs from "emailjs-com";
+
 
 const Result = () => {
     return <p>Foi entregue com sucesso!!</p>;
@@ -39,19 +40,6 @@ export default function SignUp(props) {
         <div className="form-container">
             <section>
                 <div className="input-form">
-                    <div className="form-subscription">
-                        <div className="form-subscription-full">
-                            {/* <h1 className="form-subscription-title">
-                                {" "}
-                                DevJan <i class="fab fa-react"></i>
-                            </h1> */}
-                            {/* <h4 className="footer-subscription-text">
-                                O que fazemos de diferente
-                            </h4> */}
-                            <ul></ul>
-                        </div>
-                    </div>
-
                     <div className="input">
                         <form ref={form} action="" onSubmit={sendEmail}>
                             <h1 className="form-subscription-title">
@@ -101,8 +89,22 @@ export default function SignUp(props) {
                             </div>
                         </form>
                     </div>
+                    <div className="form-subscription">
+                        <div className="form-subscription-full">
+                            {/* <h1 className="form-subscription-title">
+                                {" "}
+                                DevJan <i class="fab fa-react"></i>
+                            </h1> */}
+                            {/* <h4 className="footer-subscription-text">
+                                O que fazemos de diferente
+                            </h4> */}
+                            <ul></ul>
+                        </div>
+                    </div>
                 </div>
             </section>
+            
         </div>
     );
+      
 }

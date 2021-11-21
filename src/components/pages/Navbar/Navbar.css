@@ -8,6 +8,8 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  font-family: 'M PLUS 1', sans-serif;
+
   
 }
 
@@ -23,13 +25,14 @@
 .navbar-logo {
   color: rgb(31, 196, 218);
   justify-self: start;
-  padding-top: 0.5rem;
-  margin-left: 25px;
+  padding-top: 0.4rem;
+  margin-left: 29px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   display: flex;
   align-items:center;
+  font-family: 'M PLUS 1', sans-serif;
 }
 
 .fa-typo3 {
@@ -39,13 +42,15 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 0.3rem;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 70vw;
   justify-content:center;
-  margin-right: 1.2rem;
+  margin-right: 1rem;
+  font-family: 'M PLUS 1', sans-serif;
+
 }
 .navbar-logo {
     position: absolute;
