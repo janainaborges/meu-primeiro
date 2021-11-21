@@ -62,7 +62,7 @@ export default function SignUp(props) {
                             <div>
                                 <input
                                     type="name"
-                                    name="name"
+                                    name="to_name"
                                     placeholder="Qual seu nome?"
                                     className="footer-input"
                                 />
@@ -73,8 +73,8 @@ export default function SignUp(props) {
                                     className="footer-input"
                                 />
                                 <input
-                                    type="Numero"
-                                    name="email"
+                                    type="number"
+                                    name="phone"
                                     placeholder="Seu número"
                                     className="footer-input"
                                 />
@@ -83,7 +83,7 @@ export default function SignUp(props) {
                                 <label>
                                     <input
                                         type="text"
-                                        name="text"
+                                        name="mensagem"
                                         placeholder="Sua mensagem"
                                         className="footer-msg"
                                     />
