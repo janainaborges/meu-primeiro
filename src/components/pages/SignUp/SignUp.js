@@ -62,7 +62,7 @@ export default function SignUp(props) {
                             <div>
                                 <input
                                     type="name"
-                                    name="to_name"
+                                    name="from_name"
                                     placeholder="Qual seu nome?"
                                     className="footer-input"
                                 />
