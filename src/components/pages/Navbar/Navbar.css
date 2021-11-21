@@ -59,7 +59,7 @@
 }
 
 .nav-links {
-  color: rgb(2, 4, 7);
+  color: rgb(241, 243, 245);
   display: flex;
   align-items:center;
   text-decoration: none;
@@ -102,7 +102,7 @@
   }
 
   .nav-menu.active {
-     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(104, 170, 214) 100%);
+     background: linear-gradient(90deg, rgb(12, 12, 59) 0%, rgb(104, 170, 214) 100%);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

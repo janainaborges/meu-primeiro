@@ -25,9 +25,11 @@ export default function About() {
                         ideias saindo do papel e tornando-se realidade!
                     </p>
                     <div className="bt">
-                        <a href="./cv1.pdf" download>
+                        <a href="https://drive.google.com/file/d/12F3kkx7rLIfFCiHsEz2fADk0Q2W7UMnU/view?ts=61977994" download>
                             {" "}
-                            <Button className="btns" buttonStyle="btn--test">
+                            <Button className="btns" buttonStyle="btn--test"
+                            buttonSize="btn-small">
+
                                 {" "}
                                 Currículo{" "}
                             </Button>
