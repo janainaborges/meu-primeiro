@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer";
 import About from "./About/About";
 import Tech from "./Tech/Tech";
 import Final from "./Final/Final";
+import Contact from "./Contact/Contact";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <About />
             <Cards />
             <Tech />
+            <Contact />
             <Footer />
             <Final />
         </>

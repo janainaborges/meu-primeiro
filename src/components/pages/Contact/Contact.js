@@ -42,9 +42,9 @@ export default function SignUp(props) {
                     <div className="input">
                         <form ref={form} action="" onSubmit={sendEmail}>
                             <h1 className="form-subscription-title">
-                                {" "}
-                                DevJan <i class="fab fa-react"></i>
+                                DevJan <i class="fab fa-react"></i>{" "}
                             </h1>
+
                             <p>Solicite já uma avaliação</p>
                             <div>
                                 <input
@@ -68,14 +68,14 @@ export default function SignUp(props) {
                             </div>
                             <div>
                                 <label>
-                                    <input
+                                    <textarea
                                         type="text"
                                         name="mensagem"
                                         placeholder="Sua mensagem"
                                         className="footer-msg"
                                     />
                                 </label>
-                                <div className="hero-btn">
+                                <div className="form-btn">
                                     <div>
                                         <Button
                                             className="btn"

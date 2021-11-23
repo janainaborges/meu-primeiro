@@ -77,7 +77,8 @@
     width: auto;
     box-sizing: border-box;
     font-size: 1.3rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'M PLUS 1', sans-serif;
+
     flex-wrap: wrap;
 }
 
