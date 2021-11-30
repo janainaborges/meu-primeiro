@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../Button/Button";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
+import Contact from "../Contact/Contact"
 
 function HeroSection() {
     return (
@@ -10,7 +11,7 @@ function HeroSection() {
             <h1>INSPIRATION SOFTWARE</h1>
             <p>De gente que cria, é faz acontecer</p>
             <div className="hero-btns">
-                <Link to="/sign-up">
+                <Link to="/contact">
                     <Button
                         className="btns"
                         buttonStyle="btn--outline"
