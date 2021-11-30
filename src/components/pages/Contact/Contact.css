@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-
 }
 .input-form {
     display: flex;
@@ -61,7 +60,6 @@ p {
     justify-content: center;
     align-items: initial;
     border-radius: 0.7rem;
-
 }
 
 .footer-input {
@@ -202,6 +200,11 @@ p {
             font-size: 2.5rem;
         }
     }
+    @media screen and (max-width: 720px) {
+        .form-container {
+            display: flex;
+        }
+    }
 
     @media screen and (max-width: 320px) {
         .form-container {
@@ -250,7 +253,7 @@ p {
         .form-subscription-title {
             font-size: 1rem;
         }
-        .form-subscription-title{
+        .form-subscription-title {
             margin-top: 1rem;
         }
     }
