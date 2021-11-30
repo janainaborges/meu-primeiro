@@ -13,7 +13,7 @@ function Cards() {
                             src="images/cap.jpg"
                             text="Aqui você encontrar langing pages como modelos"
                             label="Frontend"
-                            path="/services"
+                            
                         />
                         <CardItem
                             src="images/20.jpg"
