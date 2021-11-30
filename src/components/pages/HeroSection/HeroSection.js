@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "../Button/Button";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
-import Contact from "../Contact/Contact"
 
 function HeroSection() {
     return (
