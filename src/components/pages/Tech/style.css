@@ -2,7 +2,7 @@
     --font-primary: "M PLUS 1", sans-serif;
 }
 
-.conhecimentos {
+.techs {
     padding-top: 3rem;
     display: flex;
     justify-content: center;
@@ -14,49 +14,49 @@
     row-gap: 0.5rem;
 }
 
-.conhecimento:nth-child(1) {
+.tech:nth-child(1) {
     grid-column: 1 / 7;
     grid-row: 2 / 3;
 }
 
-.conhecimento:nth-child(2) {
+.tech:nth-child(2) {
     grid-column: 1 / 7;
     grid-row: 4 / 5;
 }
 
-.conhecimento:nth-child(3) {
+.tech:nth-child(3) {
     grid-column: 4 / 7;
     grid-row: 6 / -1;
 }
 
-.conhecimento:nth-child(4) {
+.tech:nth-child(4) {
     grid-column: 13 / 14;
     grid-row: 2 / 3;
 }
 
-.conhecimento:nth-child(5) {
+.tech:nth-child(5) {
     grid-column: 13 / 14;
     grid-row: 4 / 5;
 }
 
-.conhecimento:nth-child(6) {
+.tech:nth-child(6) {
     grid-column: 13 / 14;
     grid-row: 5 / -1;
 }
-.conhecimento:nth-child(7) {
+.tech:nth-child(7) {
     grid-column: 4 / 13;
     grid-row: 1 / -1;
 }
-.conhecimento:nth-child(8) {
+.tech:nth-child(8) {
     grid-column: 4 / 13;
     grid-row: 3 / -1;
 }
-.conhecimento:nth-child(9) {
+.tech:nth-child(9) {
     grid-column: 4 / 13;
     grid-row: 5 / -1;
 }
 
-.sessao-conhecimentos {
+.sessao-techs {
     margin-top: 2em;
     margin-bottom: -7em;
     background-color: #ffffff;
@@ -79,7 +79,7 @@
     margin-bottom: 1.5rem;
 }
 
-.conhecimento-header {
+.tech-header {
     font-family: var(--font-primary);
 
     display: flex;
@@ -88,29 +88,29 @@
     color: #4b4b4b;
 }
 
-.conhecimento-header i {
+.tech-header i {
     font-size: 2.5rem;
 }
 
-.conhecimento-header h3 {
+.tech-header h3 {
     font-family: var(--font-primary);
     font-size: 2rem;
     padding-left: 1rem;
 }
 
-.conhecimento-text {
+.tech-text {
     font-family: var(--font-primary);
     margin-top: 1rem;
 }
 
-.conhecimentos-img-wrapper {
+.techs-img-wrapper {
     grid-column: 7 / 11;
     grid-row: 2 / 6;
     width: 80%;
     height: 80%;
 }
 
-.conhecimentos-img-wrapper img {
+.techs-img-wrapper img {
     object-fit: cover;
     height: 100%;
 }
@@ -125,7 +125,7 @@ h4 {
         font-size: 1rem;
 
     }
-    .conhecimentos{
+    .techs{
         margin-left: 1rem;
     }
 }
@@ -136,7 +136,7 @@ h4 {
         font-size: 1.5rem;
 
     }
-    .conhecimentos{
+    .techs{
         margin-left: 1rem;
     }
 }

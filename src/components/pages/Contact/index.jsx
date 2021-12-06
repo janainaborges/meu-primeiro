@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useRef } from "react";
-import { Button } from "../Button/Button";
-import "./Contact.css";
+import { Button } from "../Button";
+import "./style.css";
 import emailjs from "emailjs-com";
 
 const Result = () => {

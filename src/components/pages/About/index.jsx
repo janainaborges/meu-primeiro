@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "./About.css";
-import { Button } from "../Button/Button";
+import "./style.css";
+import { Button } from "../Button";
 
 export default function About() {
     return (

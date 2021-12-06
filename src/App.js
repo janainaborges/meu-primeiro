@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./App.css";
-import Navbar from "../src/components/pages/Navbar/Navbar";
+import Navbar from "./components/pages/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
-import Contact from "./components/pages/Contact/Contact";
-import About from "./components/pages/About/About";
+import Contact from "./components/pages/Contact";
+import About from "./components/pages/About";
 
 function App() {
     return (

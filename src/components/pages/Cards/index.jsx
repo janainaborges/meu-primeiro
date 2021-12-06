@@ -1,5 +1,5 @@
 import React from "react";
-import "./Cards.css";
+import "./style.css";
 import CardItem from "./CardItem";
 
 function Cards() {
@@ -13,7 +13,6 @@ function Cards() {
                             src="images/cap.jpg"
                             text="Aqui você encontrar langing pages como modelos"
                             label="Frontend"
-                            
                         />
                         <CardItem
                             src="images/20.jpg"

@@ -22,13 +22,13 @@ video {
     color: #fff;
     font-size: 4.5rem;
     margin-top: -100px;
-    padding: 2rem;
+    padding: 0.3rem;
     font-family: 'M PLUS 1', sans-serif;
 
 }
 
 .hero-container > p {
-    margin-top: 8px;
+    margin-top: 2px;
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-family: 'M PLUS 1', sans-serif;
