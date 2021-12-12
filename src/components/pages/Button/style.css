@@ -11,9 +11,11 @@
 }
 
 .btn--primary {
-    background-color: var(--primary);
-    color: #242424;
-    border: 1px solid var(--primary);
+    color: rgb(22, 22, 37);
+    background-color: transparent;
+    padding: 8px 20px;
+    border-bottom: 1px solid rgb(22, 22, 37);
+    transition: all 0.3s ease-out;
 }
 
 .btn--outline {
@@ -30,40 +32,36 @@
     padding: 2px 5px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
-
-    
 }
-
-
 
 .btn--smallp {
     padding: 8px 16px;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .btn--small {
     padding: 7px 18px;
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .btn--medium {
     padding: 8px 20px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: "Montserrat", sans-serif;
 }
 
 .btn--large {
     padding: 12px 26px;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: "Montserrat", sans-serif;
 }
 
 .btn--large:hover,
-.btn--medium:hover {
+.btn--medium:hover,
+.btn--small:hover,
+.btn--smallp:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Button } from "../Button";
 import "./style.css";
@@ -7,8 +8,11 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <video src="/videos/video.mp4" autoPlay loop muted />
-            <h1>INSPIRATION SOFTWARE</h1>
+
+            <h1> JANAINA BORGES </h1>
+
             <p>De gente que cria, é faz acontecer</p>
+
             <div className="hero-btns">
                 <Link to="/contact">
                     <Button
