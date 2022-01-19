@@ -11,7 +11,7 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="images/cap.jpg"
-                            text="Aqui você encontrar langing pages como modelos"
+                            text="Aqui você encontrar landing pages como modelos"
                             label="Frontend"
                         />
                         <CardItem
