@@ -25,7 +25,7 @@ export default function About() {
                     </p>
                     <div className="bt">
                         <a
-                            href="https://drive.google.com/file/d/12F3kkx7rLIfFCiHsEz2fADk0Q2W7UMnU/view?ts=61977994"
+                            href="https://drive.google.com/file/d/1u2d1vxacgss1NxDJ-aUsTXroxYYFPBxM/view?usp=sharing"
                             download
                         >
                             <Button
