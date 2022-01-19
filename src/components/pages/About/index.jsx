@@ -23,7 +23,7 @@ export default function About() {
                     </p>
                     <div className="bt">
                         <a
-                            href="https://drive.google.com/file/d/1u2d1vxacgss1NxDJ-aUsTXroxYYFPBxM/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1Pt7gFLwHnpKu7Wvgk3kyw6kSn19hzell/view?usp=sharing"
                             download
                         >
                             <Button
