@@ -16,9 +16,7 @@ export default function About() {
                 <div className="text">
                     <h3>Sobre mim</h3>
                     <p className="text-p">
-                        Olá, sou Janaina Borges, tenho 25 anos e moro em São
-                        Sebastião, Distrito Federal. Sou entusiasta em
-                        tecnologia e iniciei como Desenvolvedor Web em 2021.
+                        Olá, sou Janaina Borges, tenho 25 anos e moro no Distrito Federal. Tenho experiência desenvolvedora Fullstack nas tecnologias Reactjs e Nodejs.
                         Estou sempre em busca de conhecimento e de
                         aperfeiçoamento, me proporciona imensa satisfação ver
                         ideias saindo do papel e tornando-se realidade!
